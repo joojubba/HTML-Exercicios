@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+<body>
+    <form action="" method="">
+        <h1>Dados de contato:</h1>
+        <label for="nome">Nome:</label>
+        <input name="nome" required="" type="text" id="nome"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name ="email" required="" id="email"><br>
+
+        <label for="senha">Senha:</label>
+        <input type="text" name ="senha" id="senha"><br>
+
+        <label for="sexo">Sexo:</label>
+        <select name="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outros">Outros</option>
+            <option value="sem">Prefiro Não Responder</option>
+        </select><br>
+
+        <label for="data">Data de Nascimento:</label>
+        <input type="text" name ="data" required="" id="data"><br>
+
+        <label>Interessess: </label>
+        <input type="checkbox" name="esportes" value="esportes">Esportes
+        <input type="checkbox" name="musica" value="musica">Música
+        <input type="checkbox" name="cinema" value="cinema">Cinema
+        <input type="checkbox" name="viagem" value="viagem">Viagem
+        <input type="checkbox" name="tecnologia" value="tecnologia">Tecnologia
+        <br>
+
+        <label for="mensagem">Mensagem: </label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="20"></textarea>
+
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+        
+
+    </form>
+    <a href="index.html">Voltar a página principal</a>
+
+</body>
+</html>
